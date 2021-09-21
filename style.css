@@ -1,0 +1,56 @@
+body{
+    background: url(CapDécouverte.jpg) no-repeat;
+    background-size: cover;
+  
+    height: 100vh;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 90px;
+    margin-left: 30%;
+   
+}
+ header{
+     color: rgb(245, 238, 238);
+     font-size: 70px;
+     text-align: center;
+     margin-top: 30px;
+ }
+
+ 
+ @media only screen and (max-width: 767px){
+
+    html{
+        overflow-x: hidden;
+
+    }
+
+    body{
+        overflow-x: hidden;
+        background: url(CapDécouverte.jpg) no-repeat;
+        background-size: cover;
+        
+      
+        /*height: 100vh;*/
+    }
+    
+    iframe{
+        width: 260px;
+        height: 315px;
+        margin-top: 90px;
+        margin-left: 10%;
+       
+    }
+     header{
+         color: rgb(245, 238, 238);
+         font-size: 50px;
+         text-align: center;
+         margin-top: 30px;
+     }
+
+   
+
+
+ }
