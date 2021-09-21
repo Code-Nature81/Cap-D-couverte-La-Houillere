@@ -37,10 +37,11 @@ iframe{
     }
     
     iframe{
-        width: 260px;
+        width: 340px;
         height: 315px;
         margin-top: 90px;
-        margin-left: 10%;
+        margin-left: 0%;
+        
        
     }
      header{
